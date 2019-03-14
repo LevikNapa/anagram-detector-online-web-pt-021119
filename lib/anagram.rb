@@ -9,8 +9,11 @@ class Anagram
   def match(array)
     arr = []
     array.each do |words|
-    if words.split("").sort == @word.spli
-    
+    if words.split("").sort == @word.split("").sort
+      
+      arr << array
+    end
+    arr
   end
     
   
