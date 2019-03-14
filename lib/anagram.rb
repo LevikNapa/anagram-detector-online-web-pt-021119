@@ -2,11 +2,15 @@
 class Anagram
   attr_accessor :word
   
-  def initialize
+  def initialize(word)
    @word = word 
   end 
   
-  def match
+  def match(array)
+    arr = []
+    if array.split("") == 
+    
+  end
     
   
 end
